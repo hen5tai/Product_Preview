@@ -1,0 +1,106 @@
+body{
+    font-family: Montserrat;
+    background-color: #f3eae3;
+    max-width: 1440px;
+    max-height: 800px;
+    font-size: 14px;
+    color: #6f6f77;
+    margin: 0 auto;
+    text-align: center;
+}
+.product-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.product{
+    max-width: 600px;
+    max-height: 450px;    
+    margin: 178px 100px 15px 456px;
+    text-align: left;
+    position: absolute;
+}
+.product-flex-text{
+    max-width: 266px;
+}
+.product-img{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+    margin: 0 34px 0px -41px;
+}
+
+.product h2 span{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-transform: uppercase;
+    color: #6f6f77;
+    letter-spacing: 3.9px;
+    padding-bottom: 16px;
+}
+.product h2{
+    margin-top: -32px;
+    font-family: Fraunces;
+    font-size: 31px;
+    color: #1e252d;
+    line-height: 32px;
+}
+.product p{
+    line-height: 23px;
+}
+.product h1{
+    font-size: 32px;
+    font-family: Fraunces;
+    font-weight: 700;
+    color: #3d8168;
+}
+
+.product-prices{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-prices h3{
+    font-size: 14px;
+    font-family: Fraunces;
+    text-decoration: line-through;
+    font-weight: 200;
+}
+.product-button{
+    font-family: Montserrat;
+    color: #fff;
+    background-color: #3d8168;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 0.8px;
+    width: 236px;
+    height: 48px;
+    padding-left: 28px;
+    background-image: url(../images/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-position: 66px;
+    
+}
+.product-button:hover{
+    background-color: #1a4031;
+}
+.svg-icon{
+    top: 0;
+    right: 0;
+}
+
+@media (max-wigth:1000px){
+    .product-img{
+        display: none;
+    }
+    .product-flex-text{
+        flex-basis: 100%;
+    }
+}
